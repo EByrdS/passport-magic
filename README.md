@@ -1,6 +1,8 @@
 # Magic Authentication For Passport JS
 
-[![MagicLabs](https://circleci.com/gh/magiclabs/passport-magic.svg?style=shield)](https://circleci.com/gh/magiclabs/passport-magic)
+[![EByrdS/passport-magic](https://circleci.com/gh/EByrdS/passport-magic.svg?style=shield)](https://circleci.com/gh/EByrdS/passport-magic)
+
+> This is a fork from https://github.com/magiclabs/passport-magic, as that repo doesn't seem to be maintained anymore.
 
 > Integrate [Magic](https://magic.link) passwordless authentication with your Passport.js application.
 
@@ -29,8 +31,8 @@ yarn add passport-magic
 ## ⚡️ Quick Start
 
 ```ts
-const passport = require("passport");
-const MagicStrategy = require("passport-magic").Strategy;
+const passport = require('passport');
+const MagicStrategy = require('passport-magic').Strategy;
 
 const strategy = new MagicStrategy(async function(user, done) {
   const userMetadata = await magic.users.getMetadataByIssuer(user.issuer);
