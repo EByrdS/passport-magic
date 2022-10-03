@@ -1,5 +1,5 @@
 {
-  "name": "passport-magic",
+  "name": "@ebyrds/passport-magic",
   "version": "1.0.1",
   "description": "Passport JS strategy for authentication with Magic.",
   "author": "Fortmatic <team@fortmatic.com> (https://fortmatic.com/)",
